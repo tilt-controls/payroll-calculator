@@ -16,8 +16,11 @@ public class PayrollCalculatorApp {
         System.out.println("Enter pay rate: ");
         float payRate = scanner.nextFloat();
 
+        double grossPay = hoursWorked * payRate;
 
-
+        // Display results
+        System.out.println();
+        System.out.println(name + " has earned " + grossPay);
 
     }
 }
