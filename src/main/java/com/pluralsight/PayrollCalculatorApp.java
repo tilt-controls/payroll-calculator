@@ -20,7 +20,7 @@ public class PayrollCalculatorApp {
 
         // Display results
         System.out.println();
-        System.out.println(name + " has earned " + grossPay);
+        System.out.printf("%s has earned $%.2f%n2", name, grossPay);
 
     }
 }
