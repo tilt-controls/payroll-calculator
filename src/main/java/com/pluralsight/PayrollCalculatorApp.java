@@ -20,7 +20,8 @@ public class PayrollCalculatorApp {
 
         // Display results
         System.out.println();
-        System.out.printf("%s has earned $%.2f%n2", name, grossPay);
-
+        System.out.printf("%-5s has earned: $%,5.2f%n", name, grossPay);
+        System.out.printf("%-5s has earned: $%,5.2f%n", "bob", 200.235);
+        System.out.printf("%-5s has earned: $%,5.2f%n", "ADOSD", 3523.235);
     }
 }
